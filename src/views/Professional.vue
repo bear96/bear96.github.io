@@ -126,9 +126,7 @@
       </p>
 
       <div class="pub">
-        <div class="pubTitle">
-          Birds of a feather: clustering mental models to explore how people think alike (2025)
-        </div>
+        <div class="pubTitle">Birds of a feather: clustering mental models to explore how people think alike (2025)</div>
         <div class="pubMeta">
           Nour, S. R., Ghaffarzadegan, N., Majumdar, A., & Hosseinichimeh, N. — Journal of the Operational Research Society
           • <a href="https://www.tandfonline.com/doi/full/10.1080/01605682.2025.2529529" target="_blank" rel="noreferrer">Link</a>
@@ -136,9 +134,7 @@
       </div>
 
       <div class="pub">
-        <div class="pubTitle">
-          Large Language Models May Capture Human Preferences and Decisions: The Persona Hypothesis (2024)
-        </div>
+        <div class="pubTitle">Large Language Models May Capture Human Preferences and Decisions: The Persona Hypothesis (2024)</div>
         <div class="pubMeta">
           Ghaffarzadegan, N., Majumdar, A., Williams, R., & Hosseinichimeh, N.
           • <a href="https://www.researchgate.net/publication/382489800_Large_Language_Models_May_Capture_Human_Preferences_and_Decisions_The_Persona_Hypothesis" target="_blank" rel="noreferrer">Link</a>
@@ -146,9 +142,7 @@
       </div>
 
       <div class="pub">
-        <div class="pubTitle">
-          From Text to Map: A System Dynamics Bot for Constructing Causal Loop Diagrams (2024)
-        </div>
+        <div class="pubTitle">From Text to Map: A System Dynamics Bot for Constructing Causal Loop Diagrams (2024)</div>
         <div class="pubMeta">
           Hosseinichimeh, N., Majumdar, A., Williams, R., & Ghaffarzadegan, N. — System Dynamics Review
           • <a href="https://doi.org/10.1002/sdr.1782" target="_blank" rel="noreferrer">DOI</a>
@@ -156,9 +150,7 @@
       </div>
 
       <div class="pub">
-        <div class="pubTitle">
-          Generative agent-based modeling: an introduction and tutorial (2024)
-        </div>
+        <div class="pubTitle">Generative agent-based modeling: an introduction and tutorial (2024)</div>
         <div class="pubMeta">
           Ghaffarzadegan, N., Majumdar, A., Williams, R., & Hosseinichimeh, N. — System Dynamics Review
           • <a href="https://doi.org/10.1002/sdr.1761" target="_blank" rel="noreferrer">DOI</a>
@@ -166,9 +158,7 @@
       </div>
 
       <div class="pub">
-        <div class="pubTitle">
-          Artificial intelligence in the detection and classification of dental caries (2023)
-        </div>
+        <div class="pubTitle">Artificial intelligence in the detection and classification of dental caries (2023)</div>
         <div class="pubMeta">
           Ahmed, W. M., Azhari, A. A., Fawaz, K. A., Ahmed, H. M., Alsadah, Z. M., Majumdar, A., & Carvalho, R. M. — The Journal of Prosthetic Dentistry
           • <a href="https://doi.org/10.1016/j.prosdent.2023.07.013" target="_blank" rel="noreferrer">DOI</a>
@@ -176,9 +166,7 @@
       </div>
 
       <div class="pub">
-        <div class="pubTitle">
-          Epidemic Modeling with Generative Agents (2023)
-        </div>
+        <div class="pubTitle">Epidemic Modeling with Generative Agents (2023)</div>
         <div class="pubMeta">
           Williams, R., Hosseinichimeh, N., Majumdar, A., & Ghaffarzadegan, N. — arXiv
           • <a href="https://arxiv.org/abs/2307.04986" target="_blank" rel="noreferrer">Link</a>
@@ -193,8 +181,7 @@
         <div class="box">
           <div class="projTitle">Causal Decoder</div>
           <div class="projMeta">
-            Hugging Face model
-            • <a href="https://huggingface.co/dorito96/qwen2.5-1.5b_causal" target="_blank" rel="noreferrer">Link</a>
+            Hugging Face model • <a href="https://huggingface.co/dorito96/qwen2.5-1.5b_causal" target="_blank" rel="noreferrer">Link</a>
           </div>
           <ul class="bullets">
             <li>Fine-tuned Qwen2.5 (1.5B) using LoRA on a synthetic dataset for causal relationship extraction.</li>
@@ -205,8 +192,7 @@
         <div class="box">
           <div class="projTitle">Food Vision App</div>
           <div class="projMeta">
-            ResNet-50 fine-tuning + deployment
-            • <a href="https://github.com/bear96/food-vision-app" target="_blank" rel="noreferrer">GitHub</a>
+            ResNet-50 fine-tuning + deployment • <a href="https://github.com/bear96/food-vision-app" target="_blank" rel="noreferrer">GitHub</a>
           </div>
           <ul class="bullets">
             <li>Fine-tuned ResNet-50 on Food-101 and deployed via a Dockerized Flask API.</li>
@@ -216,8 +202,7 @@
         <div class="box">
           <div class="projTitle">CycleGAN (Van Gogh style transfer)</div>
           <div class="projMeta">
-            PyTorch implementation
-            • <a href="https://github.com/bear96/cyclegan-vangogh" target="_blank" rel="noreferrer">GitHub</a>
+            PyTorch implementation • <a href="https://github.com/bear96/cyclegan-vangogh" target="_blank" rel="noreferrer">GitHub</a>
           </div>
           <ul class="bullets">
             <li>Implemented CycleGAN and packaged it into a simple interactive app.</li>
@@ -258,16 +243,15 @@
       <div class="box">
         <ul class="bullets">
           <li>
-            <b>BEAMS Team</b> — member
-            • <a href="https://www.buffalo.edu/ai-data-science/research/beams.html" target="_blank" rel="noreferrer">Link</a>
+            <b>BEAMS Team</b> — member •
+            <a href="https://www.buffalo.edu/ai-data-science/research/beams.html" target="_blank" rel="noreferrer">Link</a>
           </li>
           <li>
             <b>SoDA Lab (Virginia Tech)</b> — Research Assistant (system dynamics + LLM workflows)
           </li>
           <li>
-            <b>Service:</b> Peer Reviewer — <i>System Dynamics Review</i> (2025-present)
-        </li>
-
+            <b>Service:</b> Peer Reviewer — <i>System Dynamics Review</i> (2025–present)
+          </li>
         </ul>
       </div>
     </section>
@@ -275,61 +259,131 @@
 </template>
 
 <style scoped>
-.card { border: 1px solid rgba(0,0,0,0.12); border-radius: 16px; padding: 18px; }
+/* IMPORTANT:
+   Use theme vars from pico-overrides.css.
+   Your previous rgba(0,0,0,...) borders were invisible on dark mode and
+   your scoped .card rule was overriding the global .card styling. */
 
-.hero { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 14px; align-items: start; }
+.card {
+  border: 1px solid var(--border-strong);
+  background: var(--card-bg);
+  border-radius: 16px;
+  padding: 18px;
+  box-shadow:
+    0 10px 28px rgba(0,0,0,0.35),
+    inset 0 1px 0 rgba(255,255,255,0.05);
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 14px;
+  align-items: start;
+}
 @media (max-width: 900px) { .hero { grid-template-columns: 1fr; } }
 
-.tagline { margin-top: 6px; opacity: 0.8; }
+.tagline { margin-top: 6px; opacity: 0.82; }
 
-.links, .emails { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px; }
+.links, .emails {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
 
 .pill {
   display: inline-flex;
   text-decoration: none;
   color: inherit;
-  border: 1px solid rgba(0,0,0,0.12);
+  border: 1px solid var(--border-strong);
+  background: rgba(255,255,255,0.03);
   border-radius: 999px;
   padding: 6px 10px;
+  transition: border-color 120ms ease, background 120ms ease;
 }
-.pill:hover { border-color: rgba(0,0,0,0.35); }
-.pill.subtle { opacity: 0.9; }
+.pill:hover {
+  border-color: var(--border-strong-hover);
+  background: rgba(255,255,255,0.06);
+}
+.pill.subtle { opacity: 0.92; }
 
-.summary { border: 1px solid rgba(0,0,0,0.12); border-radius: 14px; padding: 12px; }
+.summary {
+  border: 1px solid var(--border-strong);
+  background: rgba(255,255,255,0.02);
+  border-radius: 14px;
+  padding: 12px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.04);
+}
 .k { margin-bottom: 12px; }
 .k:last-child { margin-bottom: 0; }
 .kLabel { font-size: 12px; opacity: 0.7; }
-.kValue { font-weight: 700; margin-top: 2px; }
+.kValue { font-weight: 750; margin-top: 2px; }
 .kMeta { opacity: 0.75; font-size: 13px; margin-top: 2px; }
 
-.section { margin-top: 18px; }
-.box { border: 1px solid rgba(0,0,0,0.12); border-radius: 14px; padding: 12px; margin-top: 10px; }
+/* Sections: add dividers so it doesn’t read as one continuous blob */
+.section { margin-top: 22px; }
+.section + .section {
+  padding-top: 18px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
 
-.row { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+.box {
+  border: 1px solid var(--border-strong);
+  background: rgba(255,255,255,0.02);
+  border-radius: 14px;
+  padding: 12px;
+  margin-top: 10px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.04);
+}
+.box:hover {
+  border-color: var(--border-strong-hover);
+  background: rgba(255,255,255,0.03);
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
 .where { font-weight: 800; }
 .when { opacity: 0.75; }
 
 .bullets { margin: 10px 0 0 18px; }
-.bullets li { margin: 6px 0; }
+.bullets li { margin: 6px 0; line-height: 1.55; }
 
 .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
-.chip { border: 1px solid rgba(0,0,0,0.12); border-radius: 999px; padding: 4px 8px; font-size: 12px; opacity: 0.9; }
+.chip {
+  border: 1px solid var(--border-strong);
+  background: rgba(255,255,255,0.02);
+  border-radius: 999px;
+  padding: 4px 8px;
+  font-size: 12px;
+  opacity: 0.95;
+}
 
-.pub { border: 1px solid rgba(0,0,0,0.12); border-radius: 12px; padding: 10px 12px; margin-top: 10px; }
+.pub {
+  border: 1px solid var(--border-strong);
+  background: rgba(255,255,255,0.02);
+  border-radius: 12px;
+  padding: 10px 12px;
+  margin-top: 10px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.04);
+}
 .pubTitle { font-weight: 800; }
-.pubMeta { opacity: 0.75; font-size: 13px; margin-top: 2px; }
+.pubMeta { opacity: 0.78; font-size: 13px; margin-top: 2px; }
 .pubMeta a { color: inherit; }
 
 .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 10px; }
 @media (max-width: 900px) { .grid2 { grid-template-columns: 1fr; } }
 
 .projTitle { font-weight: 800; }
-.projMeta { opacity: 0.75; font-size: 13px; margin-top: 2px; }
+.projMeta { opacity: 0.78; font-size: 13px; margin-top: 2px; }
 .projMeta a { color: inherit; }
 
 .eduTitle { font-weight: 800; }
-.eduMeta { opacity: 0.8; margin-top: 2px; }
-.eduMeta2 { opacity: 0.7; font-size: 13px; margin-top: 2px; }
+.eduMeta { opacity: 0.85; margin-top: 2px; }
+.eduMeta2 { opacity: 0.72; font-size: 13px; margin-top: 2px; }
 
-.small { opacity: 0.8; line-height: 1.55; }
+.small { opacity: 0.82; line-height: 1.55; }
 </style>
