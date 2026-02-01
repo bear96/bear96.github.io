@@ -1,0 +1,200 @@
+/* Pico overrides: calmer + more spaced + consistent dark UI */
+
+/* -----------------------------
+   Global scale + spacing
+------------------------------ */
+:root {
+  /* 1) reduce base font size + line height */
+  --pico-font-size: 95%;          /* try 90–96% */
+  --pico-line-height: 1.55;
+
+  /* 2) reduce header scaling */
+  --pico-h1-font-size: 2rem;
+  --pico-h2-font-size: 1.5rem;
+  --pico-h3-font-size: 1.2rem;
+
+  /* 3) layout spacing */
+  --pico-spacing: 0.9rem;
+  --pico-block-spacing-vertical: 1.1rem;
+  --pico-block-spacing-horizontal: 1.1rem;
+
+  /* 4) theme tokens for your dark look */
+  --border-strong: rgba(255, 255, 255, 0.22);
+  --border-strong-hover: rgba(255, 255, 255, 0.34);
+
+  --card-bg: rgba(255, 255, 255, 0.03);
+  --card-bg-hover: rgba(255, 255, 255, 0.05);
+
+  --tile-bg: rgba(0, 0, 0, 0.10);
+  --tile-bg-hover: rgba(255, 255, 255, 0.04);
+  --tile-border: rgba(255, 255, 255, 0.18);
+  --tile-border-hover: rgba(255, 255, 255, 0.30);
+}
+
+/* optional: make nav/header text a touch smaller if Pico inflated it */
+nav, header {
+  font-size: 0.95rem;
+}
+
+/* -----------------------------
+   Layout helpers you already use
+------------------------------ */
+.grid {
+  gap: 24px !important;
+}
+
+.card p + p {
+  margin-top: 14px;
+}
+
+.row {
+  margin-top: 18px !important;
+  gap: 14px !important;
+}
+
+/* Links row: don’t look bunched */
+.row a {
+  padding: 10px 14px;
+}
+
+/* -----------------------------
+   Cards / panels (global)
+------------------------------ */
+.card {
+  border: 1px solid var(--border-strong);
+  background: var(--card-bg);
+  border-radius: 16px;
+  box-shadow:
+    0 10px 28px rgba(0,0,0,0.35),
+    inset 0 1px 0 rgba(255,255,255,0.05);
+}
+
+.card:hover {
+  border-color: var(--border-strong-hover);
+  background: var(--card-bg-hover);
+}
+
+/* -----------------------------
+   Buttons: more rounded + subtle 3D
+------------------------------ */
+a[role="button"],
+button,
+input[type="submit"],
+input[type="button"],
+a.btn {
+  border-radius: 999px !important;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.28) !important;
+  transform: translateY(0);
+  transition: transform 120ms ease, box-shadow 120ms ease, filter 120ms ease;
+}
+
+/* hover: lift */
+a[role="button"]:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+a.btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 26px rgba(0,0,0,0.35) !important;
+}
+
+/* active: press */
+a[role="button"]:active,
+button:active,
+input[type="submit"]:active,
+input[type="button"]:active,
+a.btn:active {
+  transform: translateY(1px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.24) !important;
+}
+
+/* -----------------------------
+   Navbar pills: clearer borders + active
+------------------------------ */
+.nav {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.nav .link {
+  text-decoration: none;
+  padding: 7px 12px;
+  border-radius: 999px;
+
+  border: 1px solid var(--border-strong);
+  background: rgba(255,255,255,0.03);
+
+  transition: border-color 120ms ease, background 120ms ease, transform 120ms ease;
+}
+
+.nav .link:hover {
+  border-color: var(--border-strong-hover);
+  background: rgba(255,255,255,0.06);
+}
+
+.nav .active {
+  border-color: rgba(255,255,255,0.50);
+  background: rgba(255,255,255,0.10);
+  font-weight: 700;
+}
+
+/* -----------------------------
+   Writing list “inside card” tiles
+   (matches your WritingList.vue class names)
+------------------------------ */
+.card .list {
+  display: grid;
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.card .item {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+
+  border: 1px solid var(--tile-border);
+  background: var(--tile-bg);
+  border-radius: 14px;
+  padding: 14px 14px;
+
+  transition: border-color 120ms ease, background 120ms ease, transform 120ms ease;
+}
+
+.card .item:hover {
+  border-color: var(--tile-border-hover);
+  background: var(--tile-bg-hover);
+  transform: translateY(-1px);
+}
+
+.card .top {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: baseline;
+}
+
+.card .title {
+  font-weight: 750;
+  letter-spacing: 0.2px;
+}
+
+.card .date {
+  opacity: 0.70;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.card .preview {
+  margin-top: 8px;
+  opacity: 0.82;
+  line-height: 1.55;
+}
+
+.card .cta {
+  margin-top: 10px;
+  font-weight: 650;
+  opacity: 0.85;
+}

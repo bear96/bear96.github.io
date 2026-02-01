@@ -1,13 +1,22 @@
 <script setup>
-import { writings } from "../data/writings";
+import { ref, onMounted } from "vue";
+import { RouterLink } from "vue-router";
+
+const items = ref([]);
+
+onMounted(async () => {
+  const mod = await import("../generated/writings-index.json");
+  items.value = mod.default ?? mod; // just in case
+});
 </script>
 
 <template>
   <div class="card">
     <h2>Writing</h2>
+
     <div class="list">
       <RouterLink
-        v-for="w in writings"
+        v-for="w in items"
         :key="w.slug"
         class="item"
         :to="`/writing/${w.slug}`"
